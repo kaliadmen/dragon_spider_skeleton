@@ -1,10 +1,10 @@
 BINARY_NAME=dragon_spider
-
-build: update
+build:
 	@go mod vendor
 	@echo "Building Dragon Spider..."
 	@go build -o tmp/${BINARY_NAME} .
 	@echo "Dragon Spider built!"
+
 
 run: build
 	@echo "Starting Dragon Spider..."
@@ -21,12 +21,6 @@ test:
 	@echo "Testing..."
 	@go test ./...
 	@echo "Done!"
-
-start_compose:
-	docker-compose up -d
-
-stop_compose:
-	docker-compose down
 
 start: run
 
