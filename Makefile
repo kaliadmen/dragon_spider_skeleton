@@ -11,11 +11,6 @@ run: build
 	@./tmp/${BINARY_NAME} &
 	@echo "Dragon Spider started!"
 
-update:
-	@echo "Updating Dragon Spider..."
-	@go get github.com/kaliadmen/dragon_spider
-	@echo "Updated"
-
 clean:
 	@echo "Cleaning..."
 	@go clean
