@@ -3,9 +3,9 @@ package main
 import (
 	dragonSpider "github.com/kaliadmen/dragon_spider"
 	"log"
-	"myApp/data"
-	"myApp/handlers"
-	"myApp/middleware"
+	"${APP_NAME}/data"
+	"${APP_NAME}/handlers"
+	"${APP_NAME}/middleware"
 	"os"
 )
 
