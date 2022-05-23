@@ -2,9 +2,9 @@ package main
 
 import (
 	dragonSpider "github.com/kaliadmen/dragon_spider"
-	"myApp/data"
-	"myApp/handlers"
-	"myApp/middleware"
+	"${APP_NAME}/data"
+	"${APP_NAME}/handlers"
+	"${APP_NAME}/middleware"
 )
 
 //application holds data all the needed for Dragon Spider App
