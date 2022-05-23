@@ -18,6 +18,10 @@ var upperDbSess upperdb.Session
 type Models struct {
 	//any models inserted here (and in the New function)
 	//are easily accessible throughout the entire application
+	//uncomment the lines below after running make auth commands
+	//to add auth models to package
+	//Users  User
+	//Tokens Token
 
 }
 
