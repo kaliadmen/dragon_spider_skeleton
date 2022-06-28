@@ -6,15 +6,15 @@ import (
 	"net/http"
 )
 
-func (h *Handlers) render(w http.ResponseWriter, r *http.Request, template string, vars, data interface{}) error {
+func (h *Handlers) render(w http.ResponseWriter, r *http.Request, template string, vars, data any) error {
 	return h.App.Render.Page(w, r, template, vars, data)
 }
 
-func (h *Handlers) sessionGet(ctx context.Context, key string) interface{} {
+func (h *Handlers) sessionGet(ctx context.Context, key string) any {
 	return h.App.Session.Get(ctx, key)
 }
 
-func (h *Handlers) sessionPut(ctx context.Context, key string, value interface{}) {
+func (h *Handlers) sessionPut(ctx context.Context, key string, value any) {
 	h.App.Session.Put(ctx, key, value)
 }
 
@@ -42,7 +42,7 @@ func (h *Handlers) sessionDestroy(ctx context.Context) error {
 	return nil
 }
 
-func (h *Handlers) writeJSON(w http.ResponseWriter, status int, data interface{}) error {
+func (h *Handlers) writeJSON(w http.ResponseWriter, status int, data any) error {
 	err := h.App.WriteJSON(w, status, data)
 	if err != nil {
 		return err
@@ -50,7 +50,7 @@ func (h *Handlers) writeJSON(w http.ResponseWriter, status int, data interface{}
 	return nil
 }
 
-func (h *Handlers) writeXML(w http.ResponseWriter, status int, data interface{}) error {
+func (h *Handlers) writeXML(w http.ResponseWriter, status int, data any) error {
 	err := h.App.WriteXML(w, status, data)
 	if err != nil {
 		return err
