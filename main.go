@@ -4,7 +4,7 @@ import (
 	"${APP_NAME}/data"
 	"${APP_NAME}/handlers"
 	"${APP_NAME}/middleware"
-	dragonSpider "github.com/kaliadmen/dragon_spider"
+	dragonSpider "github.com/kaliadmen/dragon_spider/v2"
 	"os"
 	"os/signal"
 	"sync"

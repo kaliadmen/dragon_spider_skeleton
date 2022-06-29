@@ -1,8 +1,8 @@
 package handlers
 
 import (
-	dragonSpider "github.com/kaliadmen/dragon_spider"
-	"github.com/kaliadmen/dragon_spider/render"
+	dragonSpider "github.com/kaliadmen/dragon_spider/v2"
+	"github.com/kaliadmen/dragon_spider/v2/render"
 	"github.com/kaliadmen/mailer"
 	"golang.org/x/net/context"
 	"log"

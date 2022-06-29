@@ -2,7 +2,7 @@ package handlers
 
 import (
 	"context"
-	dragonSpider "github.com/kaliadmen/dragon_spider"
+	dragonSpider "github.com/kaliadmen/dragon_spider/v2"
 	"net/http"
 )
 

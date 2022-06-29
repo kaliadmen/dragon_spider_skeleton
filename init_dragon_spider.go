@@ -1,7 +1,7 @@
 package main
 
 import (
-	dragonSpider "github.com/kaliadmen/dragon_spider"
+	dragonSpider "github.com/kaliadmen/dragon_spider/v2"
 	"log"
 	"${APP_NAME}/data"
 	"${APP_NAME}/handlers"

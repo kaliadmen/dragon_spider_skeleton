@@ -2,7 +2,7 @@ package main
 
 import (
 	"github.com/go-chi/chi/v5"
-	dragonSpider "github.com/kaliadmen/dragon_spider"
+	dragonSpider "github.com/kaliadmen/dragon_spider/v2"
 	"net/http"
 )
 
