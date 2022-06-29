@@ -3,19 +3,16 @@ module ${APP_NAME}
 go 1.18
 
 require (
-	github.com/CloudyKit/jet/v6 v6.1.0
 	github.com/go-chi/chi/v5 v5.0.7
 	github.com/kaliadmen/mailer v0.0.0-20220606182307-97d19eb9c42f
-	github.com/kaliadmen/urlsigner v0.0.0-20220606164535-ab4be2e335a1
-	github.com/markbates/goth v1.73.0
 	github.com/upper/db/v4 v4.5.2
-	golang.org/x/crypto v0.0.0-20220622213112-05595931fe9d
+	golang.org/x/net v0.0.0-20220617184016-355a448f1bc9
 )
 
 require (
-	cloud.google.com/go v0.88.0 // indirect
 	github.com/AndreasBriese/bbloom v0.0.0-20190306092124-e2d15f34fcf9 // indirect
 	github.com/CloudyKit/fastprinter v0.0.0-20200109182630-33d98a066a53 // indirect
+	github.com/CloudyKit/jet/v6 v6.1.0 // indirect
 	github.com/Masterminds/semver/v3 v3.1.1 // indirect
 	github.com/PuerkitoBio/goquery v1.5.1 // indirect
 	github.com/ainsleyclark/go-mail v1.1.1 // indirect
@@ -29,7 +26,6 @@ require (
 	github.com/asaskevich/govalidator v0.0.0-20210307081110-f21760c49a8d // indirect
 	github.com/aws/aws-sdk-go v1.44.37 // indirect
 	github.com/aymerick/douceur v0.2.0 // indirect
-	github.com/bwmarrin/go-alone v0.0.0-20190806015146-742bb55d1631 // indirect
 	github.com/cespare/xxhash/v2 v2.1.2 // indirect
 	github.com/cockroachdb/cockroach-go v2.0.1+incompatible // indirect
 	github.com/dgraph-io/badger v1.6.1 // indirect
@@ -60,11 +56,7 @@ require (
 	github.com/golang/protobuf v1.5.2 // indirect
 	github.com/gomodule/redigo v1.8.8 // indirect
 	github.com/google/uuid v1.3.0 // indirect
-	github.com/gorilla/context v1.1.1 // indirect
 	github.com/gorilla/css v1.0.0 // indirect
-	github.com/gorilla/mux v1.7.4 // indirect
-	github.com/gorilla/securecookie v1.1.1 // indirect
-	github.com/gorilla/sessions v1.1.1 // indirect
 	github.com/hashicorp/errwrap v1.0.0 // indirect
 	github.com/hashicorp/go-multierror v1.1.0 // indirect
 	github.com/jackc/chunkreader/v2 v2.0.1 // indirect
@@ -85,6 +77,7 @@ require (
 	github.com/klauspost/cpuid v1.3.1 // indirect
 	github.com/kr/fs v0.1.0 // indirect
 	github.com/lib/pq v1.10.6 // indirect
+	github.com/markbates/errx v1.1.0 // indirect
 	github.com/mattn/go-colorable v0.1.12 // indirect
 	github.com/mattn/go-isatty v0.0.14 // indirect
 	github.com/mattn/go-sqlite3 v2.0.3+incompatible // indirect
@@ -112,13 +105,11 @@ require (
 	github.com/ysmood/gson v0.7.1 // indirect
 	github.com/ysmood/leakless v0.7.0 // indirect
 	go.uber.org/atomic v1.7.0 // indirect
-	golang.org/x/net v0.0.0-20220617184016-355a448f1bc9 // indirect
-	golang.org/x/oauth2 v0.0.0-20210628180205-a41e5a781914 // indirect
+	golang.org/x/crypto v0.0.0-20220622213112-05595931fe9d // indirect
 	golang.org/x/sync v0.0.0-20220601150217-0de741cfad7f // indirect
 	golang.org/x/sys v0.0.0-20220615213510-4f61da869c0c // indirect
 	golang.org/x/term v0.0.0-20220526004731-065cf7ba2467 // indirect
 	golang.org/x/text v0.3.7 // indirect
-	google.golang.org/appengine v1.6.7 // indirect
 	google.golang.org/protobuf v1.28.0 // indirect
 	gopkg.in/ini.v1 v1.66.4 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
